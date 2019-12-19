@@ -20,4 +20,6 @@ eureka:
 server:
   port: 8088
 env: dev
-
+zuul:
+#全部服务忽略敏感头（全部服务都可传递cooki
+  sensitive-headers: 
